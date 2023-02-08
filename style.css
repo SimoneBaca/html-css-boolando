@@ -100,9 +100,31 @@ img{
     top: 20px;
     right: 0px;
     background-color: white;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
    
 }
 .dress_name{
     color: black;
 }
-
+.card:hover .heart{
+    display: block;
+    color: red;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(./img/1b.webp);
+    background-size: cover;
+}
+.container:hover .overlay {
+    opacity: 1;}
