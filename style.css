@@ -52,8 +52,57 @@ body {
 .container{
     margin: auto;
     max-width: 1152px;
-    width: 70%;
+    width: 100%;
 }
+    
 .album{
     display: flex;
+
+    
 }
+.col1 {
+    width: calc(100% / 12 * 4);
+    padding: 2rem;
+    border: 1px dashed black;
+    margin: 1rem;
+    
+
+}
+.card{
+    position: relative;
+    background-color: #eeee;
+    color: white;
+   
+}
+
+img{
+    max-width: 100%;
+}
+.bage{
+    position:absolute;
+    bottom: 80px;
+    left: 0;
+    background-color: red;   
+}
+
+.bage_green{
+    position:absolute;
+    bottom: 80px;
+    left: 40px;
+    background-color: green;
+}
+
+
+
+.heart{
+    color:black;
+    position:absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+   
+}
+.dress_name{
+    color: black;
+}
+
